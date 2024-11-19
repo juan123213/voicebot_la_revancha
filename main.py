@@ -27,9 +27,9 @@ voz=hablador(respuesta)
 
 import escuchador
 import transcriptor
-import negociador
+import negociador #ingresa str de texto y devuelve string de respuesta
 import hablador
-import buscar_deuda
+import buscar_deuda #devuelve el valor de la deuda le ingresa el dni en int
 import escribir_datos_radicado
 import buscar_dni_nombre
 
