@@ -1,6 +1,6 @@
 import escuchador
 import transcriptor
-import negociador
+import negociador.negociador as negociador
 import hablador
 import buscar_deuda #recibe el dni del cliente y busca en la base de datos los datos del cliente incluido el valor de la deuda
 import escribir_datos_radicado #al final de llamada, se conecta con la base de datos creando una fila con numero de radicado y reporte de la solución a la que se llegó
@@ -27,7 +27,7 @@ voz=hablador(respuesta)
 
 import escuchador
 import transcriptor
-import negociador #ingresa str de texto y devuelve string de respuesta
+import negociador.negociador as negociador #ingresa str de texto y devuelve string de respuesta
 import hablador
 import buscar_deuda #devuelve el valor de la deuda le ingresa el dni en int
 import escribir_datos_radicado

@@ -6,7 +6,8 @@ from datetime import datetime
 from typing import Dict, Tuple, Optional
 
 
-import negociador
+import negociador.negociador as negociador
+
 def interactive_test():
     negotiator = negociador.DebtNegotiator()
     conversation_state = {
