@@ -4,3 +4,5 @@ accelerate
 pyaudio
 scipy
 gtts
+pygame
+google-generativeai
