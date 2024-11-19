@@ -1,0 +1,6 @@
+transformers
+datasets[audio]
+accelerate
+pyaudio
+scipy
+gtts
