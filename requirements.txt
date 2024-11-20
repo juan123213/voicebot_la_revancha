@@ -1,0 +1,12 @@
+transformers
+torch
+datasets[audio]
+accelerate
+pyaudio
+scipy
+gtts
+pygame
+google-generativeai
+pymongo
+numpy
+pandas
