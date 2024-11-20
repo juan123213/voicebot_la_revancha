@@ -6,3 +6,4 @@ scipy
 gtts
 pygame
 google-generativeai
+pymongo
